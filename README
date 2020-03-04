@@ -1,0 +1,3 @@
+This application will call the cat-fact api and generate a random cat fact.
+
+Then the user can enter a phone number of a friend that the user wishes to send the cat fact to.
