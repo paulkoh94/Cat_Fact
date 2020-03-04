@@ -14,12 +14,14 @@ app.get('', (req, res) => {
   res.render('index')
 })
 
+//This path will request data from cat-fact API
 app.get('/fact', (req, res) => {
   getCatFact( (text) => {
     res.send({message: text})
   })
 })
 
+//404
 app.get('*', (req, res) => {
   app.send('404')
 })
